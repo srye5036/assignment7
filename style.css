@@ -1,0 +1,37 @@
+h1,
+h2 {
+    color: purple;
+}
+
+p {
+    color: gray;
+}
+
+ul {
+    border: 2px solid orange;
+}
+
+ol {
+    border: 2px solid purple;
+}
+
+ol,
+ul {
+    padding: 5px 20px;
+    border-radius: 4px;
+    padding-left: 20%;
+}
+
+h1,
+strong {
+    color: purple;
+    font-family: Arial, sans-serif;
+}
+
+em {
+    color: gray;
+}
+
+h1 {
+    padding-left: 50%;
+}
