@@ -1,0 +1,88 @@
+h1,
+h2 {
+    color: purple;
+}
+
+p {
+    color: gray;
+}
+
+ul {
+    border: 2px solid orange;
+}
+
+ol {
+    border: 2px solid purple;
+}
+
+ol,
+ul {
+    padding: 5px 20px;
+    border-radius: 4px;
+    padding-left: 20%;
+}
+
+h1,
+strong {
+    color: purple;
+    font-family: Arial, sans-serif;
+}
+
+em {
+    color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+element.style {}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgb(207, 213, 208);
+    display: grid;
+    width: 100vw;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "head head head" "box1 box2 box3" "box1 box2 box3" "box1 box2 box3";
+}
+
+header {
+    grid-area: head;
+    background: White;
+}
+
+.box1 {
+    grid-area: box1;
+    background: lightpink;
+}
+
+.box2 {
+    grid-area: box2;
+    background: lightblue;
+}
+
+.box3 {
+    grid-area: box3;
+    background: lightgreen;
+}
+
+header,
+article {
+    padding: 1.5em;
+    border: 1px black solid;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+article {
+    display: block;
+}
+
+header {
+    text-align: center;
+}
